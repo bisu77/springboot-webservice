@@ -1,6 +1,6 @@
 buildscript{
     ext{
-        springBootVersion = '2.5.1'
+        springBootVersion = '2.1.9.RELEASE'
     }
     repositories{
         mavenCentral()
@@ -10,7 +10,6 @@ buildscript{
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
     }
 }
-
 
 apply plugin: 'java'
 apply plugin: 'eclipse'
